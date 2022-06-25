@@ -1,0 +1,23 @@
+{
+  "name": "sprint-2-moda-circular-",
+  "version": "1.0.0",
+  "description": "SPRINT 2  - Archivo retro.md con el resultado de la retrospectiva. ★ Enlace al tablero de trabajo en el archivo README.md. ★ Aplicación Node.js+Express con secciones",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scincunegui05/Sprint-2-Moda-circular-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scincunegui05/Sprint-2-Moda-circular-/issues"
+  },
+  "homepage": "https://github.com/scincunegui05/Sprint-2-Moda-circular-#readme",
+  "dependencies": {
+    "modules": "^0.4.0"
+  }
+}
