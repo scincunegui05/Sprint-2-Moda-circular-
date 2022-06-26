@@ -6,7 +6,7 @@ const port = 3030;
 //Ruta elementos estaticos
 app.use(express.static('public'))
 app.use(express.static('public'))
-app.listen(process.env.PORT ||port, () => console.log(`Servidor Funcionando! ${port}!`))
+app.listen(process.env.PORT ||port, () => console.log("Servidor Funcionando!" + port))
 
 //Ruta index
 app.get('/', (req, res) => {
@@ -18,8 +18,6 @@ app.get('/', (req, res) => {
 app.get('/login', (req, res) => {
   res.sendFile(__dirname + '/views/login.html')
 })
-
-
 
 
 
@@ -39,5 +37,18 @@ app.get('/registro', (req, res) => {
     res.sendFile(__dirname + '/views/register.html')
   })
 
+  //Ruta header
+
+app.get('/header', (req, res) => {
+  res.sendFile(__dirname + '/views/header.html')
+})
+
+  //Ruta footer
+
+  app.get('/footer', (req, res) => {
+    res.sendFile(__dirname + '/views/footer.html')
+  })
   
+
+
  
